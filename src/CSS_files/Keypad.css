@@ -1,0 +1,39 @@
+.Keypad{
+    /* border: 2px solid green; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: black; */
+    border-radius: 0px 0px 15px 15px;
+    
+}
+.number,.sign ,.qual{
+    background-color: whitesmoke;
+    /* border: 2px solid green; */
+    /* color: white; */
+    font-size: 1.2rem;
+    box-shadow: .1px .1px 5px black;
+    width: 24%;
+    margin: .1rem;
+    /* height: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.num{
+    font-size: 1.8rem;
+}
+
+.clear, .zero{
+    width: 48.9%;
+}
+.dot{
+    border-radius: 0px 0px 0px 15px;
+}
+.qual{
+    border-radius: 0px 0px 15px 0px;
+}

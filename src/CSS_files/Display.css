@@ -1,0 +1,21 @@
+.Display{
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 100%;
+    background-color: #9db3ee;
+    border-radius: 15px 15px 0px 0px ;
+    /* box-shadow: inset 2px 2px 1px 1px black; */
+}
+
+.histroy{
+    /* border: 2px solid blue; */
+    height: 65%;
+    /* overflow-y: scroll; */
+}
+.calculate{
+    /* border: 2px solid blue; */
+    height: 35%;
+    text-align: end;
+    padding-right: 1rem;
+    /* overflow-x: scroll; */
+}
